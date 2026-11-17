@@ -1,0 +1,10 @@
+.header {
+  display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 1rem;
+  padding: 1rem 2rem; background: rgba(7, 7, 13, 0.92); border-bottom: 1px solid #b026ff;
+  box-shadow: 0 2px 20px rgba(176, 38, 255, 0.25); position: sticky; top: 0; z-index: 100;
+}
+.logo { font-size: 1.6rem; font-weight: 800; background: linear-gradient(90deg, #00f3ff, #b026ff); -webkit-background-clip: text; -webkit-text-fill-color: transparent; text-decoration: none; }
+.nav { display: flex; flex-wrap: wrap; gap: 1.2rem; }
+.link { color: var(--text-muted); text-decoration: none; font-weight: 600; }
+.link:hover, .active { color: #00f3ff; text-shadow: 0 0 8px rgba(0, 243, 255, 0.6); }
+.controls { display: flex; align-items: center; gap: 0.75rem; }

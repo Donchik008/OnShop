@@ -1,0 +1,18 @@
+:root {
+  --bg-dark: #07070d;
+  --bg-card: #0f101d;
+  --neon-purple: #b026ff;
+  --neon-cyan: #00f3ff;
+  --text-main: #f0f4ff;
+  --text-muted: #9499b7;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+  font-family: 'Segoe UI', Roboto, sans-serif;
+  background-color: var(--bg-dark);
+  color: var(--text-main);
+  background-image:
+    radial-gradient(circle at 15% 15%, rgba(176, 38, 255, 0.15), transparent 35%),
+    radial-gradient(circle at 85% 80%, rgba(0, 243, 255, 0.13), transparent 35%);
+  min-height: 100vh;
+}

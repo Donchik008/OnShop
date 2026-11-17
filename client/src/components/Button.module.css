@@ -1,0 +1,6 @@
+.btn { font: inherit; font-weight: 600; padding: 0.55rem 1.1rem; border-radius: 8px; cursor: pointer; transition: 0.25s; border: 1px solid transparent; }
+.primary { background: linear-gradient(135deg, #b026ff, #00c3ff); color: #050509; box-shadow: 0 0 14px rgba(176, 38, 255, 0.5); }
+.primary:hover { box-shadow: 0 0 22px rgba(0, 243, 255, 0.85); transform: translateY(-1px); }
+.secondary { background: rgba(15, 16, 29, 0.9); color: #00f3ff; border-color: #00f3ff; }
+.secondary:hover { background: rgba(0, 243, 255, 0.15); }
+.btn:focus-visible { outline: 2px solid #00f3ff; outline-offset: 2px; }
